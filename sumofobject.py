@@ -1,4 +1,3 @@
-import unittest
 class SumOfObject:
    def __init__(self, Obj):
        self.mainObj = Obj
