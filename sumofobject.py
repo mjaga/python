@@ -1,3 +1,4 @@
+import unittest
 class SumOfObject:
    def __init__(self, Obj):
        self.mainObj = Obj
@@ -10,5 +11,6 @@ class SumOfObject:
         print('total value:',addvalue);
 
 
-outuput = SumOfObject({"Rick": 85, "Amit": 42, "George": 53, "Tanya": 60, "Linda": 35})
-outuput.display()    
+output = SumOfObject({"Rick": 85, "Amit": 42, "George": 53, "Tanya": 60, "Linda": 35})
+output.display()    
+
