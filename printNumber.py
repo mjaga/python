@@ -1,16 +1,14 @@
 numberInput = input("Enter a number ")
-print ("Your age is: ", numberInput)
-print(type(numberInput)); strng = '';
 num = 1;
 while num <= int(numberInput):
-        strng = '';  
+        output = '';  
         if num % 3 == 0:
-            strng = strng + 'fizz';
+            output = output + 'fizz';
         if num % 5 == 0:
-            strng =  strng + 'buzz';
+            output =  output + 'buzz';
         if num % 5 != 0 and num % 3 != 0:
-            strng = num;
-        print(strng)
+            output = str(num);
+        print(output)
         num += 1;
 
 
